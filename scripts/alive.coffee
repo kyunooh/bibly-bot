@@ -12,5 +12,5 @@ sendMessageMethod = (robot) ->
     -> sendMessage(robot)
 
 sendMessage = (robot) ->
-    robot.http(targetUrl).get() (err, res, body)
-  
+    robot.http(targetUrl).get() (err, res, body) ->
+      $ = cheerio.load(body)
