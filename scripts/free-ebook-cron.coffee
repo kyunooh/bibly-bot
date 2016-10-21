@@ -29,4 +29,4 @@ sendMessage = (robot) ->
         $ = cheerio.load(body)
         title = $('.dotd-title').text()
         title = title.replace /\n|\t/g, ""
-        robot.messageRoom '#_general', "아침을 여는 무료책! <#{title}> https://www.packtpub.com/packt/offers/free-learning"
+        robot.messageRoom '#bibly_dev', "아침을 여는 무료책! <#{title}> https://www.packtpub.com/packt/offers/free-learning"
