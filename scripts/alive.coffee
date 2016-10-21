@@ -1,6 +1,6 @@
 cronJob = require('cron').CronJob
 
-targetUrl = "https://www.packtpub.com/packt/offers/free-learning"
+targetUrl = "http://ryencatchers-slackbot.heroku.com"
 timeZone = "Asia/Seoul"
 
 
