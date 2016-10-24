@@ -1,6 +1,6 @@
 cronJob = require('cron').CronJob
 
-targetUrl = "http://ryencatchers-slackbot.heroku.com"
+targetUrl = "http://ryencatchers-slackbot.herokuapp.com/"
 timeZone = "Asia/Seoul"
 
 
